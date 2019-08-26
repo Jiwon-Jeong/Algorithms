@@ -1,77 +1,58 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
  
-class pair {
-    int now;
-    int weight;
-    public pair(int now, int weight) {
-        super();
-        this.now = now;
-        this.weight = weight;
-    }
-}
- 
-public class BOJ1389 {
+public class BOJ1325{
+    
     static int n,m;
-    static boolean[][] map;
- 
-    static int[] rst;
-    static Scanner sc = new Scanner(System.in);
- 
-    static int bfs(int start) {
-        boolean[] visited = new boolean[n+1];
-        Queue<pair> q = new LinkedList<pair>();
-        visited[start]=true;
-        q.add(new pair(start,0));
-        int score=0;
+    static ArrayList<Integer> map[];
+    static boolean check[];
+    static int res[] = new int[10001];
+    public static void main(String args[]) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
         
-        while(!q.isEmpty()) {
-            int now = q.peek().now;
-            int weight = q.peek().weight;
-            score+=weight;
-            q.poll();
-            
-            for(int i=1;i<=n;i++) {
-                if(map[now][i] && !visited[i]) {
-                    visited[i]=true;
-                    q.add(new pair(i,weight+1));
-                }
-            }
+        map = new ArrayList[n+1];
+        for(int i = 1 ; i <= n ; i++){
+            map[i] = new ArrayList();
         }
         
-        return score;
+        for(int i = 0 ; i < m ; i++){
+            st=new StringTokenizer(br.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            map[x].add(y);
+        }
+        
+        for(int i =1; i<= n ;i++){
+            check = new boolean[n+1];
+            dfs(i);
+        }
+        
+        int max = 0;
+        for(int i =1 ; i <= n ; i++){
+            if(max <res[i]){
+                max = res[i];
+            }
+        }
+        for(int i = 1 ; i <= n ; i++){
+            if(res[i]==max){
+                System.out.print(i+" ");
+            }
+        }
     }
     
-    public static void main(String[] args) {
-        n = sc.nextInt(); // 유저의 수
-        m = sc.nextInt(); // 관계 수
-        
-        map = new boolean[n+1][n+1];
-        rst = new int[n+1];
-        
-        for(int i=0;i<m;i++) {
-            int a=sc.nextInt();
-            int b=sc.nextInt();
-            
-            map[a][b] = true;
-            map[b][a] = true;
-        }
-        
-        int min=Integer.MAX_VALUE;
-        int ans = 0;
-        for(int i=1;i<=n;i++) {
-            
-            rst[i] = bfs(i);
-            
-            if(rst[i]<min) {
-                min = rst[i];
-                ans = i;
+    public static void dfs(int v){
+        check[v]=true;
+        for(int vv : map[v]){
+            if(!check[vv]){
+                dfs(vv);
+                res[vv]++;
             }
         }
-        
-        System.out.println(ans);
-        
-    }//end of main
+    }
 }
- 
