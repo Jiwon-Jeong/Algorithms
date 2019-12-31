@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-New File",
+      "appliesTo": "APSS/New File",
+      "type": "launch"
+    }
+  ]
+}
