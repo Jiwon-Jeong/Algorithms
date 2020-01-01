@@ -28,6 +28,7 @@ bool hasWord(int y, int x, const string& word) {
 	return false;
 }
 
+/*
 void main() {
 
 	for (int i = 0; i < 5; i++)
@@ -58,3 +59,4 @@ void main() {
 	}
 
 }
+*/
