@@ -153,6 +153,7 @@
     </ClCompile>
     <ClCompile Include="_6_P_모의고사.cpp" />
     <ClCompile Include="_6_P_소수찾기.cpp" />
+    <ClCompile Include="_6_P_숫자야구.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
