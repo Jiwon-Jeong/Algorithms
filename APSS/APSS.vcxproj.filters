@@ -24,5 +24,8 @@
     <ClCompile Include="_6_BOARDCOVER.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_6_CLOCKSYNC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
