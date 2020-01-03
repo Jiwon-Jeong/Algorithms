@@ -36,5 +36,8 @@
     <ClCompile Include="_6_P_숫자야구.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_6_P_카펫.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
