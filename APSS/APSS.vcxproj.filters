@@ -42,5 +42,8 @@
     <ClCompile Include="_7_QUADTREE.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_7_FENCE.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
