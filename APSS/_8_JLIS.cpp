@@ -45,6 +45,7 @@ void main() {
 		for (int i = 0; i < m; ++i) {
 			cin >> B[i];
 		}
+
 		answers.push_front(jlis(-1, -1) - 2);
 	}
 
