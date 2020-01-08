@@ -1,3 +1,3 @@
-﻿  TRIANGLEPATH.cpp
-c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\trianglepath.cpp(23): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  _8_LIS.cpp
+c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\_8_lis.cpp(21): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   APSS.vcxproj -> C:\Users\ziwon\source\repos\Jiwon-Jeong\Algorithms\x64\Debug\APSS.exe
