@@ -66,5 +66,8 @@
     <ClCompile Include="_8_P_타일장식.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_8_P_정수삼각.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
