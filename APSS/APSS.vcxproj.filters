@@ -57,5 +57,8 @@
     <ClCompile Include="_8_LIS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_8_JLIS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
