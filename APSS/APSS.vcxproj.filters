@@ -69,5 +69,8 @@
     <ClCompile Include="_8_P_정수삼각.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_8_TILING2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
