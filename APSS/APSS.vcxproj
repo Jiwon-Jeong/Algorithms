@@ -187,7 +187,10 @@
     <ClCompile Include="_8_P_타일장식.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_8_TILING2.cpp" />
+    <ClCompile Include="_8_SNAIL.cpp" />
+    <ClCompile Include="_8_TILING2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_8_WILDCARD.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
