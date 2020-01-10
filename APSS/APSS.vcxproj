@@ -205,7 +205,10 @@
     <ClCompile Include="_8_P_정수삼각.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_9_PACKING.cpp" />
+    <ClCompile Include="_9_BOJ_1로만들기.cpp" />
+    <ClCompile Include="_9_PACKING.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
