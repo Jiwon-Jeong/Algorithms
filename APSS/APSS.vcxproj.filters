@@ -81,5 +81,8 @@
     <ClCompile Include="_8_NUMB3RS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_9_PACKING.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
