@@ -211,7 +211,10 @@
     <ClCompile Include="_9_BOJ_1로만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_9_BOJ_피보나치.cpp" />
+    <ClCompile Include="_해시_P완주하지_못한선수.cpp" />
+    <ClCompile Include="_9_BOJ_피보나치.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_9_PACKING.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
