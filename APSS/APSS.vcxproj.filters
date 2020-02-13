@@ -99,5 +99,8 @@
     <ClCompile Include="_해시_P전화번호목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_해시_P위장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
