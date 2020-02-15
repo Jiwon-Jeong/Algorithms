@@ -105,5 +105,8 @@
     <ClCompile Include="_정렬_P_K번쨰수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_스택_P_탑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
