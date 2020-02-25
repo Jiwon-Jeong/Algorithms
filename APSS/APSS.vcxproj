@@ -211,6 +211,7 @@
     <ClCompile Include="_9_BOJ_1로만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_P_쇠막대기.cpp" />
     <ClCompile Include="_P_오픈채팅방.cpp" />
     <ClCompile Include="_P_주식가격.cpp" />
     <ClCompile Include="_P_타겟넘버.cpp" />
