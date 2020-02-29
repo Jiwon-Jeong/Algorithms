@@ -229,6 +229,7 @@
     </ClCompile>
     <ClCompile Include="_해시_P위장.cpp" />
     <ClCompile Include="_해시_P전화번호목록.cpp" />
+    <ClCompile Include="_P_기능개발.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
