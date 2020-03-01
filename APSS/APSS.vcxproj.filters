@@ -126,5 +126,8 @@
     <ClCompile Include="_P_기능개발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_P_124나라의숫자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
