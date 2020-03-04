@@ -143,7 +143,10 @@
     <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_10828.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_9012.cpp" />
+    <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_1874.cpp" />
+    <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_9012.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_9093.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
