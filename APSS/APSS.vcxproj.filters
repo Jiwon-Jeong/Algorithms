@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Algo_1.0">
+      <UniqueIdentifier>{936080cf-d9a0-4436-ad03-b46c2359ea8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algo_2.0">
+      <UniqueIdentifier>{1b30d507-cef5-4b14-b4b2-fd1d681bb8ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_6_BOARDCOVER.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_BOGGLE.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_CLOCKSYNC.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_P_모의고사.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_P_소수찾기.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_P_숫자야구.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_P_카펫.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_6_PICNIC.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_7_FENCE.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_7_QUADTREE.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_ASYMTILING.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_JLIS.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_JUMPGAME.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_LIS.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_NUMB3RS.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_P_정수삼각.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_P_타일장식.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_SNAIL.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_TILING2.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_8_WILDCARD.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_9_BOJ_1로만들기.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_9_BOJ_123만들기.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_9_BOJ_피보나치.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_9_PACKING.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_124나라의숫자.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_기능개발.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_쇠막대기.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_오픈채팅방.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_주식가격.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_타겟넘버.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_스택_P_탑.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_정렬_P_K번쨰수.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_큐_P_프린터.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_해시_P완주하지_못한선수.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_해시_P위장.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_해시_P전화번호목록.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="PI.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIANGLEPATH.cpp">
+      <Filter>소스 파일\Algo_1.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_10950.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_10951.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_10828.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
