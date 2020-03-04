@@ -147,5 +147,8 @@
     <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_9093.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="..\ALGO\Algo_2.0\_BOJ_9012.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
