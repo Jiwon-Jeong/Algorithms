@@ -25,6 +25,7 @@ int main() {
 		else {
 			bool found = false;
 			if (!s.empty()) {
+
 				int top = s.top();
 				s.pop();
 				result += '-';
