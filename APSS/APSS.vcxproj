@@ -240,6 +240,7 @@
     <ClCompile Include="_BOJ_1406.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_BOJ_1427.cpp" />
     <ClCompile Include="_BOJ_17413.cpp" />
     <ClCompile Include="_BOJ_10799.cpp" />
     <ClCompile Include="_BOJ_1918.cpp" />
