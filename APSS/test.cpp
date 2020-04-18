@@ -1,26 +1,36 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-using namespace std;
+#include <stdio.h>
+long long d[1000001][4];
+const long long mod = 1000000009LL;
+const int limit = 100000;
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
-	int n;
-	cin >> n;
-	vector<int> d(n + 1);
-	vector<int> p(n + 1);
-	for (int i = 1; i <= n; i++) {
-		cin >> p[i];
-		d[i] = p[i];
-	}
-	d[0] = 0;
-	if (n >= 2) {
-		for (int i = 2; i <= n; i++) {
-			for (int j = 1; j < i; j++) {
-				if (n - i + j)
-					d[i] = min(d[i], p[i - j] + d[j]);
+	for (int i = 1; i <= limit; i++) {
+		if (i - 1 >= 0) {
+			d[i][1] = d[i - 1][2] + d[i - 1][3];
+			if (i == 1) {
+				d[i][1] = 1;
 			}
 		}
+		if (i - 2 >= 0) {
+			d[i][2] = d[i - 2][1] + d[i - 2][3];
+			if (i == 2) {
+				d[i][2] = 1;
+			}
+		}
+		if (i - 3 >= 0) {
+			d[i][3] = d[i - 3][1] + d[i - 3][2];
+			if (i == 3) {
+				d[i][3] = 1;
+			}
+		}
+		d[i][1] %= mod;
+		d[i][2] %= mod;
+		d[i][3] %= mod;
 	}
-	cout << d[n] << "\n";
+	int t;
+	scanf("%d", &t);
+	while (t--) {
+		int n;
+		scanf("%d", &n);
+		printf("%lld\n", (d[n][1] + d[n][2] + d[n][3]) % mod);
+	}
 }
