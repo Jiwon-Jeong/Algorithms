@@ -18,7 +18,7 @@ int main() {
 		for (int i = 2; i <= n; i++) {
 			for (int j = 1; j < i; j++) {
 				if (n - i + j)
-					d[i] = max(d[i], p[i - j] + d[j]);
+					d[i] = min(d[i], p[i - j] + d[j]);
 			}
 		}
 	}
