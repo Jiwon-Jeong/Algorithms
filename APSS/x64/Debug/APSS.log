@@ -1,6 +1,6 @@
-﻿  _BOJ_11054.cpp
-c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\_boj_11054.cpp(6): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  _BOJ_13398.cpp
+c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\_boj_13398.cpp(5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\_boj_11054.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\ziwon\source\repos\jiwon-jeong\algorithms\apss\_boj_13398.cpp(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
   APSS.vcxproj -> C:\Users\ziwon\source\repos\Jiwon-Jeong\Algorithms\x64\Debug\ALGO.exe
