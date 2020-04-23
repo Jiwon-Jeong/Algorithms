@@ -381,5 +381,8 @@
     <ClCompile Include="_BOJ_15666.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_BOJ_10972.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
