@@ -4,6 +4,9 @@ using namespace std;
 int s[21][21];
 int n;
 int go(int index, vector<int>&start, vector<int>&link) {
+	// 불가능한 경우 - Backtracking
+	if (start.size() > n / 2 || link.size() > n / 2) return -1;
+
 	// 정답 찾은 경우
 	if (index == n) {
 		// 못 찾은 경우
