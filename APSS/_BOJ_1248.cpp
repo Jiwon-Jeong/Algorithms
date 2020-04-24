@@ -1,48 +1,58 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 int n;
-vector<int> a(n + 1);
-int s[11][11];
-bool check(vector<int> &a) {
-	for (int i = 0; i < n; i++) {
-		int sum = 0;
-		for (int j = i; j < n; j++) {
-			sum += a[j];
-			if (s[i][j] == '-' && sum > 0)
-				return false;
-			if (s[i][j] == '+' && sum < 0)
-				return false;
-			if (s[i][j] == '0' && sum != 0)
-				return false;
-		}
+int a[10];
+int s[10][10];
+bool check(int index) {
+	int sum = 0;
+	for (int i = index; i >= 0; i--) {
+		sum += a[i];
+		if (s[i][index] < 0 && sum >= 0)
+			return false;
+		if (s[i][index] > 0 && sum <= 0)
+			return false;
+		if (s[i][index] == 0 && sum != 0)
+			return false;
 	}
 	return true;
 };
 
-void go(int index, vector<int> &a) {
+bool go(int index) {
 
 	if (index == n) {
-		if (check(a)) {
-			for (int i : a)
-				cout << a[i] << " ";
-			cout << "\n";
-			return;
-		}
+		return true;
 	}
-
+	if (s[index][index] == 0) {
+		a[index] = 0;
+		return check(index) && go(index + 1);
+	}
 	for (int i = 1; i <= 10; i++) {
-		a[index] = i;
-		go(index + 1, a);
+		a[index] = s[index][index] * i;
+		if (check(index) && go(index + 1)) return true;
 	}
+	return false;
 
 }
 int main() {
 	cin >> n;
+	string str;
+	cin >> str;
+	int cnt = 0;
 	for (int i = 0; i < n; i++) {
-		for (int j = i; j < n; j++)
-			cin >> s[i][j];
+		for (int j = i; j < n; j++) {
+			if (str[cnt] == '0') s[i][j] = 0;
+			if (str[cnt] == '-') s[i][j] = -1;
+			if (str[cnt] == '+') s[i][j] = 1;
+			cnt++;
+		}
 	}
-	go(0, a);
+
+	go(0);
+	for (int i = 0; i < n; i++) {
+		cout << a[i] << ' ';
+	}
+	cout << '\n';
 	return 0;
 }
