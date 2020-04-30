@@ -456,5 +456,8 @@
     <ClCompile Include="_BOJ_7562.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_P_베스트앨범.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
