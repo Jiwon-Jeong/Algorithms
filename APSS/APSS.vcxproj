@@ -536,6 +536,7 @@
     <ClCompile Include="_P_124나라의숫자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_P_K번째수.cpp" />
     <ClCompile Include="_P_다리를 지나는 트럭.cpp" />
     <ClCompile Include="_P_베스트앨범.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
