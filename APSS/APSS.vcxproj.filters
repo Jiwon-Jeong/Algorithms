@@ -456,5 +456,29 @@
     <ClCompile Include="_BOJ_7562.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_P_베스트앨범.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_탑.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_쇠막대기_2.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_K번째수.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_가장큰수.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_2N타일링.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_H-index.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
