@@ -480,5 +480,11 @@
     <ClCompile Include="_P_H-index.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_P_주식가격_2.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_P_크레인인형뽑기.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
