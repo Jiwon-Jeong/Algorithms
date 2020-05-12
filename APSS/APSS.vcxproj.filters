@@ -507,5 +507,14 @@
     <ClCompile Include="_BOJ_4344.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_BOJ_15996.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_4673.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_1065.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
