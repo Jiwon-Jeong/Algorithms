@@ -534,5 +534,20 @@
     <ClCompile Include="_BOJ_1152.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_BOJ_2908.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_5622.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_2941.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_1316.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
+    <ClCompile Include="_BOJ_1712.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
