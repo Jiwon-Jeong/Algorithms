@@ -570,5 +570,8 @@
     <ClCompile Include="_P_다음큰숫자.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_P_문자열내림차순으로배치하기.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
