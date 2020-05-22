@@ -617,6 +617,7 @@
     </ClCompile>
     <ClCompile Include="_P_다음큰숫자.cpp" />
     <ClCompile Include="_P_문자열내림차순으로배치하기.cpp" />
+    <ClCompile Include="_P_방문길이.cpp" />
     <ClCompile Include="_P_베스트앨범.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -639,6 +640,7 @@
     <ClCompile Include="_P_주식가격_2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_P_지형이동.cpp" />
     <ClCompile Include="_P_체육복.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
