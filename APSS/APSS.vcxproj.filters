@@ -609,5 +609,8 @@
     <ClCompile Include="_AL_MST_Kruskal.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_FirstUniqueCharacterInAString.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
