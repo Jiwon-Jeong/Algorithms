@@ -618,5 +618,8 @@
     <ClCompile Include="_AL_KMP.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_P_구명보트.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
