@@ -655,6 +655,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_P_단어변환.cpp" />
+    <ClCompile Include="_P_더맵게.cpp" />
     <ClCompile Include="_P_도둑질.cpp" />
     <ClCompile Include="_P_문자열내림차순으로배치하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
