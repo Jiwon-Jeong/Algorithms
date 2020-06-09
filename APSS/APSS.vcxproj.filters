@@ -660,6 +660,9 @@
     <ClCompile Include="_leetcode_InverseBinaryTree_DAY6.1.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_DeleteNodeInALinkedList_DAY6.2.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
