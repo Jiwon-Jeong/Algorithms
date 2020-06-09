@@ -641,6 +641,7 @@
     <ClCompile Include="_leetcode_ransomnote.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_ReverseString_DAY6.4.cpp" />
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp" />
     <ClCompile Include="_M_짝수피보나치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
