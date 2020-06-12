@@ -647,6 +647,7 @@
     <ClCompile Include="_leetcode_SearchInsertPosition_DAY6.10.cpp" />
     <ClCompile Include="_leetcode_SortColors_DAY6.11.cpp" />
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp" />
+    <ClCompile Include="_leetcode_WC192_1472_DesignBrowserHistory.cpp" />
     <ClCompile Include="_M_짝수피보나치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
