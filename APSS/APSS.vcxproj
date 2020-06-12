@@ -639,6 +639,7 @@
     <ClCompile Include="_leetcode_NumberComplement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_RandomPickWithWeight_DAY6.5.cpp" />
     <ClCompile Include="_leetcode_ransomnote.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
