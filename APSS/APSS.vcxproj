@@ -633,6 +633,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_leetcode_FunsWithArrays_FindNumversWithEvenNumberOfDigitscpp.cpp" />
+    <ClCompile Include="_leetcode_FunWithArrays_MoveZeroes.cpp" />
     <ClCompile Include="_leetcode_InsertDeleteGetRandom_DAY6.12.cpp" />
     <ClCompile Include="_leetcode_InverseBinaryTree_DAY6.1.cpp" />
     <ClCompile Include="_leetcode_MajorityElement.cpp">
