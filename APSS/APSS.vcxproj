@@ -677,6 +677,7 @@
     <ClCompile Include="_leetcode_ReverseString_DAY6.4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_SearchInABinarySearchTree_DAY6.15.cpp" />
     <ClCompile Include="_leetcode_SearchInsertPosition_DAY6.10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
