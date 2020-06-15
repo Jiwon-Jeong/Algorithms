@@ -155,7 +155,9 @@
     <ClCompile Include="PI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="practice.cpp" />
+    <ClCompile Include="practice.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -630,7 +632,9 @@
     <ClCompile Include="_BOJ_9613.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_leetcode_CheapestFlightsWithinKStops_DAY6.14.cpp" />
+    <ClCompile Include="_leetcode_CheapestFlightsWithinKStops_DAY6.14.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_leetcode_CoinChange2_DAY6.7.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -649,25 +653,46 @@
     <ClCompile Include="_leetcode_InsertDeleteGetRandom_DAY6.12.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_leetcode_InverseBinaryTree_DAY6.1.cpp" />
-    <ClCompile Include="_leetcode_LargestDivisibleSubset_DAY6.13.cpp" />
+    <ClCompile Include="_leetcode_InverseBinaryTree_DAY6.1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_LargestDivisibleSubset_DAY6.13.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_leetcode_MajorityElement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_leetcode_NumberComplement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_leetcode_QueueReconstructionByHeight_DAY6.6.cpp" />
-    <ClCompile Include="_leetcode_RandomPickWithWeight_DAY6.5.cpp" />
+    <ClCompile Include="_leetcode_QueueReconstructionByHeight_DAY6.6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_RandomPickWithWeight_DAY6.5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_leetcode_ransomnote.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_leetcode_ReverseString_DAY6.4.cpp" />
-    <ClCompile Include="_leetcode_SearchInsertPosition_DAY6.10.cpp" />
-    <ClCompile Include="_leetcode_SortColors_DAY6.11.cpp" />
-    <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp" />
-    <ClCompile Include="_leetcode_WC192_1417_TheKStrongestValuesInAnArray.cpp" />
-    <ClCompile Include="_leetcode_WC192_1472_DesignBrowserHistory.cpp" />
+    <ClCompile Include="_leetcode_ReverseString_DAY6.4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_SearchInsertPosition_DAY6.10.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_SortColors_DAY6.11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_WC192_1417_TheKStrongestValuesInAnArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_leetcode_WC192_1472_DesignBrowserHistory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_M_괄호모든조합.cpp" />
     <ClCompile Include="_M_짝수피보나치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -692,7 +717,9 @@
     <ClCompile Include="_P_구명보트.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="_P_네트워크.cpp" />
+    <ClCompile Include="_P_네트워크.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_P_다리를 지나는 트럭.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -806,7 +833,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="_leetcode_IsSubsequence_DAY6.9.cpp" />
+    <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
