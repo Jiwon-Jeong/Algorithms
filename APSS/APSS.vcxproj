@@ -687,6 +687,7 @@
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_ValidIPAddress_DAY6.16.cpp" />
     <ClCompile Include="_leetcode_WC192_1417_TheKStrongestValuesInAnArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

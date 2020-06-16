@@ -717,6 +717,9 @@
     <ClCompile Include="_leetcode_SearchInABinarySearchTree_DAY6.15.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_ValidIPAddress_DAY6.16.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
