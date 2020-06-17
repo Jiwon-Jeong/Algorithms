@@ -684,6 +684,7 @@
     <ClCompile Include="_leetcode_SortColors_DAY6.11.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_SurroundedRegions_DAY6.17.cpp" />
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
