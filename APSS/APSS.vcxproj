@@ -650,6 +650,7 @@
     <ClCompile Include="_leetcode_FunWithArrays_MoveZeroes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_H-Index2_DAY6.18.cpp" />
     <ClCompile Include="_leetcode_InsertDeleteGetRandom_DAY6.12.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
