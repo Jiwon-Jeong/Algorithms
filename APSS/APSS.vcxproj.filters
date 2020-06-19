@@ -750,6 +750,9 @@
     <ClCompile Include="_leetcode_H-Index2_DAY6.18.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_TIQ_SortingAndSearching_FirstBadVersion.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
