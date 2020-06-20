@@ -1,0 +1,24 @@
+class Solution {
+public:
+	string getPermutation(int n, int k) {
+		stringstream ss;
+		string res;
+		int factorial = 1, cnt;
+		for (int i = n; i > 0; i--) factorial *= i;
+		vector<bool> visited(n + 1, false);
+		for (int i = n; i > 0; i--) {
+			factorial /= i;
+			for (cnt = 1; factorial < k; cnt++) k -= factorial;
+			for (int j = 1, k = 0; j <= n; j++) {
+				if (!visited[j]) k++;
+				if (k == cnt) {
+					visited[j] = true;
+					ss.str(""); ss.clear(); ss << j;
+					res += ss.str();
+					break;
+				}
+			}
+		}
+		return res;
+	}
+};

@@ -666,6 +666,7 @@
     <ClCompile Include="_leetcode_NumberComplement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_PermutationSequence_DAY6.20.cpp" />
     <ClCompile Include="_leetcode_QueueReconstructionByHeight_DAY6.6.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
