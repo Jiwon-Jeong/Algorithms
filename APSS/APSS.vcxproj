@@ -696,6 +696,7 @@
     <ClCompile Include="_leetcode_TIQ_LinkedList_RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="_leetcode_TIQ_SortingAndSearching_FirstBadVersion.cpp" />
     <ClCompile Include="_leetcode_TIQ_String_ReverseInteger.cpp" />
+    <ClCompile Include="_leetcode_TIQ_Trees_MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
