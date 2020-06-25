@@ -643,6 +643,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_leetcode_DungeonGame_DAY6.21.cpp" />
+    <ClCompile Include="_leetcode_FindTheDuplicateNumber_DAY6.25.cpp" />
     <ClCompile Include="_leetcode_FirstUniqueCharacterInAString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
