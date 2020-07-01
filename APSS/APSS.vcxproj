@@ -716,6 +716,7 @@
     <ClCompile Include="_leetcode_WC192_1472_DesignBrowserHistory.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_WordSearch2_DAY6.30.cpp" />
     <ClCompile Include="_M_괄호모든조합.cpp" />
     <ClCompile Include="_M_짝수피보나치.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
