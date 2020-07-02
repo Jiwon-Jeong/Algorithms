@@ -700,6 +700,7 @@
     <ClCompile Include="_leetcode_TIQ_Array_ContainsDuplicate.cpp" />
     <ClCompile Include="_leetcode_TIQ_Array_RotateArray.cpp" />
     <ClCompile Include="_leetcode_TIQ_Array_SignleNumber.cpp" />
+    <ClCompile Include="_leetcode_TIQ_DP_ClimbingStairs.cpp" />
     <ClCompile Include="_leetcode_TIQ_IntersectionOfTwoArrays2.cpp" />
     <ClCompile Include="_leetcode_TIQ_LinkedList_RemoveNthNodeFromEndOfList.cpp" />
     <ClCompile Include="_leetcode_TIQ_SortingAndSearching_FirstBadVersion.cpp" />
