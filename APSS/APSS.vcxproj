@@ -673,6 +673,7 @@
     </ClCompile>
     <ClCompile Include="_leetcode_PerfectSquares_DAY6.27.cpp" />
     <ClCompile Include="_leetcode_PermutationSequence_DAY6.20.cpp" />
+    <ClCompile Include="_leetcode_PrisonCellsAfterNDays_DAY7.3.cpp" />
     <ClCompile Include="_leetcode_QueueReconstructionByHeight_DAY6.6.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
