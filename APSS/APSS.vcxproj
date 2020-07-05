@@ -711,6 +711,7 @@
     <ClCompile Include="_leetcode_TwoCityScheduling_DAY6.3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_UglyNumber2_DAY7.4.cpp" />
     <ClCompile Include="_leetcode_UniqueBinarySearchTrees_DAY6.24.cpp" />
     <ClCompile Include="_leetcode_UniquePaths_DAY6.29.cpp" />
     <ClCompile Include="_leetcode_ValidIPAddress_DAY6.16.cpp" />
