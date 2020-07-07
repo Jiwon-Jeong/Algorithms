@@ -663,6 +663,7 @@
     <ClCompile Include="_leetcode_InverseBinaryTree_DAY6.1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_IslandPerimeter_DAY7.7.cpp" />
     <ClCompile Include="_leetcode_LargestDivisibleSubset_DAY6.13.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
