@@ -632,6 +632,7 @@
     <ClCompile Include="_BOJ_9613.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_3SUM_DAY7.8.cpp" />
     <ClCompile Include="_leetcode_ArrangingCoins_DAY7.1.cpp" />
     <ClCompile Include="_leetcode_BinaryTreeLevelOrderTraversal2_DAY7.2.cpp" />
     <ClCompile Include="_leetcode_CheapestFlightsWithinKStops_DAY6.14.cpp">

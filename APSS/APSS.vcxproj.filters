@@ -813,6 +813,9 @@
     <ClCompile Include="_leetcode_IslandPerimeter_DAY7.7.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_3SUM_DAY7.8.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
