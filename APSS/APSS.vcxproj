@@ -671,6 +671,7 @@
     <ClCompile Include="_leetcode_MajorityElement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_MaximumWidthofBinaryTree_DAY7.9.cpp" />
     <ClCompile Include="_leetcode_NumberComplement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
