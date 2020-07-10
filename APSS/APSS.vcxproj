@@ -650,6 +650,7 @@
     <ClCompile Include="_leetcode_FirstUniqueCharacterInAString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="_leetcode_FlattenAMultilevelDoublyLinkedList_DAY7.10.cpp" />
     <ClCompile Include="_leetcode_FunsWithArrays_FindNumversWithEvenNumberOfDigitscpp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
