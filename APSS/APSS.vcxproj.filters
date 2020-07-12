@@ -825,6 +825,9 @@
     <ClCompile Include="_leetcode_Subsets_DAY7.11.cpp">
       <Filter>소스 파일\Algo_2.0</Filter>
     </ClCompile>
+    <ClCompile Include="_leetcode_ReverseBits_DAY7.12.cpp">
+      <Filter>소스 파일\Algo_2.0</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="_leetcode_IsSubsequence_DAY6.9.cpp">
