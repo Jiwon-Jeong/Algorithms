@@ -643,6 +643,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_leetcode_CountCompleteTreeNodes_DAY6.23.cpp" />
+    <ClCompile Include="_leetcode_CourseSchedule2_DAY7.18.cpp" />
     <ClCompile Include="_leetcode_DeleteNodeInALinkedList_DAY6.2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
