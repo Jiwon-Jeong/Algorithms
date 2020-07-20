@@ -693,6 +693,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="_leetcode_ReconstructItinerary_DAY6.28.cpp" />
+    <ClCompile Include="_leetcode_RemoveLinkedListElements.cpp" />
     <ClCompile Include="_leetcode_ReverseBits_DAY7.12.cpp" />
     <ClCompile Include="_leetcode_ReverseString_DAY6.4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
